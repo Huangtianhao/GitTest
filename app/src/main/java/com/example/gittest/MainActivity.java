@@ -14,4 +14,8 @@ public class MainActivity extends AppCompatActivity {
 
         Log.i("eden","hi,this is my test projects!");
     }
+
+    private int getInt() {
+        return 0;
+    }
 }
