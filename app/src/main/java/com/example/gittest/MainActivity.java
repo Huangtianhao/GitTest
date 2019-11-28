@@ -16,4 +16,8 @@ public class MainActivity extends AppCompatActivity {
 
         //say something
     }
+
+    private int getInt() {
+        return 0;
+    }
 }
