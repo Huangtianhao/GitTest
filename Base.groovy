@@ -1,4 +1,4 @@
-class Base {
+class base {
 
     def run() {
 	    println("base run")

@@ -1,15 +1,8 @@
-class Child extends Base {
+class Child extends base {
 	
 	@Override
     def run() {
 	    println("invoke run")
 		super.run()
-	}
-}
-
-class Base {
-
-    def run() {
-	    println("base run")
 	}
 }
