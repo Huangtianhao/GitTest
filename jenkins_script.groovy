@@ -1,9 +1,22 @@
+def runUnitTest(Object base) {
+  base.checkout()
+  base.build()
+
+  println("invoke runUnitTest with base")
+}
+
 def runUnitTest() {
   def baseSricpt = getBase()
   baseSricpt.checkout()
   baseSricpt.build()
 
   println("invoke runUnitTest")
+}
+
+def exportReporter(base) {
+  println("invoke exportReporter with base")
+  base.commit()
+  base.exportChangelog()
 }
 
 def exportReporter() {
