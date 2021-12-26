@@ -1,4 +1,4 @@
-jenkins_script() {
+def jenkins_script() {
   println("create jenkins_script")
 }
 
