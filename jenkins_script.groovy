@@ -1,3 +1,7 @@
+jenkins_script() {
+  println("create jenkins_script")
+}
+
 def runUnitTest() {
   baseSricpt.checkout()
   baseSricpt.build()
